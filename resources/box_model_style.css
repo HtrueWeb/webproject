@@ -1,0 +1,55 @@
+/*
+  white: #FFFFFF
+  vibrant blue: #0055FF
+  deep teal green: #007F5F
+*/
+
+h1, h2, h3, h4, h5, h6 {
+  color: #0055FF;
+}
+
+h1{
+  text-align: center;
+}
+
+th, td {
+  border: 2px dashed #007F5F;
+  padding: 10px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+a {
+  color: #0055FF;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #007F5F;
+}
+
+.text-content {
+  background-color: #0055FF;
+  color: white;
+  width: 500px;
+  padding: 20px;
+  border: 10px groove #007F5F;
+  margin: 40px;
+}
+
+div {
+  background-color: #0055FF;
+  width: 646px;
+  padding: 15px;
+  border: 10px outset #007F5F;
+  margin: 25px;
+}
+
+body {
+  padding: 20px;
+  font-size: 18px;
+}
+
