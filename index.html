@@ -1,25 +1,84 @@
-<!doctype html>
-<html lang="en-US">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-
-<title>Index</title>
-
-<meta name="description" content="brief description of YOUR page here">
-<meta name="keywords" content="keywords related to YOUR page here">
-<meta name="author" content= "YOUR name here">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page for my personal tech journey and projects">
+    <meta name="keywords" content="tech, cybersecurity, networking, 3D printing, home lab">
+    <title>Hans's Tech Journey</title>
+    <link rel="stylesheet" href="resources\styles.css">
 </head>
-
-<ul>
-    <Li><a href="running.html">Running</a></Li>
-    <Li><a href="box_model.html">box_model</a></Li>
-    <Li><a href="index.html">index.html</a></Li>
-</ul>
-
-
 <body>
+    <header>
+        <h1>Welcome to Hans's Tech Journey</h1>
+        <p>Explore my projects and interests in technology.</p>
+    </header>
 
-</body>
+    <nav>
+        <ul>
+            <li><a href="running.html">Trail Running</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="box_model.html">CSS Box Model</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <h2>About Me</h2>
+        <p>Hi, I&#39;m Hans, a tech enthusiast diving into the exciting world of cybersecurity, networking, and 3D printing. This website showcases my journey and the projects I&#39;m passionate about.</p>
+       
+        <h2>Current Projects</h2>
+        <p>My current focus is on building a home lab with a Dell PowerEdge server, experimenting with Proxmox virtualization, and enhancing my skills in networking with Cisco equipment.</p>
+        <img src="resources/itroom.jpg" alt="IT server room" style="width: 400px; height: auto;">
+
+        <h2>Completed Projects</h2>
+        <ul>
+            <li>Successfully set up a Dell PowerEdge R720xd server for virtualization and networking experiments.</li>
+            <li>Configured Proxmox Virtualization Platform to manage multiple virtual machines.</li>
+            <li>Created and optimized a 3D printing workflow using a Bambu Labs 3D Printer.</li>
+            <li>Set up a Windows DNS server to manage a local network domain.</li>
+            <li>Implemented a static IP configuration for Home Assistant integration.</li>
+            <li>Set up an Ubuntu BIND9 DNS server for external name resolution.</li>
+            <li>Set up a <a href="https://nextcloud.com/" target="_blank">Nextcloud server</a> to be my locally hosted cloud service.</li>
+            <li>Successfully set up a Dell PowerEdge R720xd server for virtualization and networking experiments.</li>
+            <li>Configured Proxmox Virtualization Platform to manage multiple virtual machines.</li>
+            <li>Created and optimized a 3D printing workflow using a Bambu Labs 3D Printer.</li>
+            <li>Set up a Windows DNS server to manage a local network domain.</li>
+            <li>Implemented a static IP configuration for Home Assistant integration.</li>
+        </ul>
+
+        <h2>Tools and Resources</h2>
+        <div class="graphic-links" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; text-align: center; margin-top: 20px;">
+            <div class="graphic-item">
+                <a href="https://www.dell.com/en-us" target="_blank" class="graphic-link">
+                    <img src="resources/dell.png" alt="Dell PowerEdge R720xd Server">
+                </a>
+                <p>Dell PowerEdge R720xd Server</p>
+            </div>
+            <div class="graphic-item">
+                <a href="https://www.proxmox.com/en/" target="_blank" class="graphic-link">
+                    <img src="resources/proxmox.png" alt="Proxmox Virtualization Platform">
+                </a>
+                <p>Proxmox Virtualization Platform</p>
+            </div>
+            <div class="graphic-item">
+                <a href="https://www.cisco.com/" target="_blank" class="graphic-link">
+                    <img src="resources/cisco.jpg" alt="Cisco Networking Gear">
+                </a>
+                <p>Cisco Networking Gear</p>
+            </div>
+            <div class="graphic-item">
+                <a href="https://us.store.bambulab.com/" target="_blank" class="graphic-link">
+                    <img src="resources/bambulabs.png" alt="Bambu Labs 3D Printer">
+                </a>
+                <p>Bambu Labs 3D Printer</p>
+            </div>
+       
+        </div>
+
+    </div>
+        <footer style="background-color: #161b22; color: #c9d1d9; text-align: center; padding: 10px 0; margin-top: 20px;">
+            <p>&copy; 2024 Hans's Tech Journey. All rights reserved.</p>
+            <p><a href="mailto:hans@example.com" style="color: #58a6ff;">Contact Me</a></p>
+        </footer>
+    </body>
 </html>
