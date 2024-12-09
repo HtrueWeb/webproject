@@ -12,6 +12,34 @@ body {
 	padding: 0 24px 36px 24px;
 }
 
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #593814;
+    margin: 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #FDF0E0;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #FDF0E0;
+    color: #593814;
+    border-radius: 4px;
+}
+
 a {
 	color: #593814;
 	font-weight: bold;
